@@ -32,7 +32,9 @@ I appreciate any contribution to the project.
 
 <tr>
 <td><a href="https://developer.apple.com/documentation/">Apple Developer Documentation</a></td>
+<td><a href="https://www.hackingwithswift.com">Hacking with swift</a></td>
 <td><a href="https://stackoverflow.com">Stack Overflow</a></td>
+<td><a href="https://www.tutorialspoint.com/index.htm">tutorialspoint</a></td>
 </tr>
 
 </table>

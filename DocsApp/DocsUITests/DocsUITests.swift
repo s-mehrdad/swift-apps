@@ -1,13 +1,17 @@
-//
-//  OpenUrlAppUITests.swift
-//  OpenUrlAppUITests
-//
-//  Created by Mehrdad Soleimanimajd on 8/23/23.
-//
+
+// ===========================================================================
+/// <summary>
+/// DocsUITests.swift
+/// DocsUITests
+/// created by Mehrdad Soleimanimajd on 06.09.2023
+/// </summary>
+/// <created>ʆϒʅ, 06.09.2023</created>
+/// <changed>ʆϒʅ, 06.09.2023</changed>
+// ===========================================================================
 
 import XCTest
 
-final class OpenUrlAppUITests: XCTestCase {
+final class DocsUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -25,7 +29,7 @@ final class OpenUrlAppUITests: XCTestCase {
     func testExample() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
-                app.launch()
+        app.launch()
 
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }

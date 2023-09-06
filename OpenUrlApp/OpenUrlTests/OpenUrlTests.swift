@@ -1,14 +1,18 @@
-//
-//  OpenUrlAppTests.swift
-//  OpenUrlAppTests
-//
-//  Created by Mehrdad Soleimanimajd on 8/23/23.
-//
+
+// ===========================================================================
+/// <summary>
+/// OpenUrlTests.swift
+/// OpenUrlTests
+/// created by Mehrdad Soleimanimajd on 23.08.2023
+/// </summary>
+/// <created>ʆϒʅ, 23.08.2023</created>
+/// <changed>ʆϒʅ, 06.09.2023</changed>
+// ===========================================================================
 
 import XCTest
-@testable import OpenUrlApp
+@testable import OpenUrl
 
-final class OpenUrlAppTests: XCTestCase {
+final class OpenUrlTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

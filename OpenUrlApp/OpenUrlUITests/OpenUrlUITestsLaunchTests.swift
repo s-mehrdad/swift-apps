@@ -1,13 +1,17 @@
-//
-//  OpenUrlAppUITestsLaunchTests.swift
-//  OpenUrlAppUITests
-//
-//  Created by Mehrdad Soleimanimajd on 8/23/23.
-//
+
+// ===========================================================================
+/// <summary>
+/// OpenUrlUITestsLaunchTests.swift
+/// OpenUrlUITest
+/// created by Mehrdad Soleimanimajd on 23.08.2023
+/// </summary>
+/// <created>ʆϒʅ, 23.08.2023</created>
+/// <changed>ʆϒʅ, 06.09.2023</changed>
+// ===========================================================================
 
 import XCTest
 
-final class OpenUrlAppUITestsLaunchTests: XCTestCase {
+final class OpenUrlUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

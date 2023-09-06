@@ -7,62 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E8DF900B2A966003004E46EC /* OpenUrlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF900A2A966003004E46EC /* OpenUrlApp.swift */; };
-		E8DF900D2A966003004E46EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF900C2A966003004E46EC /* ContentView.swift */; };
-		E8DF900F2A966006004E46EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8DF900E2A966006004E46EC /* Assets.xcassets */; };
-		E8DF90122A966006004E46EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8DF90112A966006004E46EC /* Preview Assets.xcassets */; };
-		E8DF901D2A966007004E46EC /* OpenUrlAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF901C2A966007004E46EC /* OpenUrlAppTests.swift */; };
-		E8DF90272A966007004E46EC /* OpenUrlAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF90262A966007004E46EC /* OpenUrlAppUITests.swift */; };
-		E8DF90292A966007004E46EC /* OpenUrlAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF90282A966007004E46EC /* OpenUrlAppUITestsLaunchTests.swift */; };
+		E825DA402AA86E3F0030E036 /* DocsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E825DA3F2AA86E3F0030E036 /* DocsApp.swift */; };
+		E825DA422AA86E3F0030E036 /* DocsDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = E825DA412AA86E3F0030E036 /* DocsDocument.swift */; };
+		E825DA442AA86E3F0030E036 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E825DA432AA86E3F0030E036 /* ContentView.swift */; };
+		E825DA462AA86E420030E036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E825DA452AA86E420030E036 /* Assets.xcassets */; };
+		E825DA492AA86E420030E036 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E825DA482AA86E420030E036 /* Preview Assets.xcassets */; };
+		E825DA552AA86E420030E036 /* DocsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E825DA542AA86E420030E036 /* DocsTests.swift */; };
+		E825DA5F2AA86E420030E036 /* DocsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E825DA5E2AA86E420030E036 /* DocsUITests.swift */; };
+		E825DA612AA86E420030E036 /* DocsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E825DA602AA86E420030E036 /* DocsUITestsLaunchTests.swift */; };
+		E88E0EBB2AA895CD00D21CF4 /* DocsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88E0EBA2AA895CD00D21CF4 /* DocsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E8DF90192A966007004E46EC /* PBXContainerItemProxy */ = {
+		E825DA512AA86E420030E036 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E8DF8FFF2A966003004E46EC /* Project object */;
+			containerPortal = E825DA342AA86E3F0030E036 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E8DF90062A966003004E46EC;
-			remoteInfo = OpenUrlApp;
+			remoteGlobalIDString = E825DA3B2AA86E3F0030E036;
+			remoteInfo = Docs;
 		};
-		E8DF90232A966007004E46EC /* PBXContainerItemProxy */ = {
+		E825DA5B2AA86E420030E036 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E8DF8FFF2A966003004E46EC /* Project object */;
+			containerPortal = E825DA342AA86E3F0030E036 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E8DF90062A966003004E46EC;
-			remoteInfo = OpenUrlApp;
+			remoteGlobalIDString = E825DA3B2AA86E3F0030E036;
+			remoteInfo = Docs;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E8DF90072A966003004E46EC /* OpenUrlApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenUrlApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8DF900A2A966003004E46EC /* OpenUrlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenUrlApp.swift; sourceTree = "<group>"; };
-		E8DF900C2A966003004E46EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E8DF900E2A966006004E46EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E8DF90112A966006004E46EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E8DF90132A966006004E46EC /* OpenUrlApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenUrlApp.entitlements; sourceTree = "<group>"; };
-		E8DF90182A966007004E46EC /* OpenUrlAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenUrlAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8DF901C2A966007004E46EC /* OpenUrlAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenUrlAppTests.swift; sourceTree = "<group>"; };
-		E8DF90222A966007004E46EC /* OpenUrlAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenUrlAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8DF90262A966007004E46EC /* OpenUrlAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenUrlAppUITests.swift; sourceTree = "<group>"; };
-		E8DF90282A966007004E46EC /* OpenUrlAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenUrlAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E825DA3C2AA86E3F0030E036 /* Docs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Docs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E825DA3F2AA86E3F0030E036 /* DocsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocsApp.swift; sourceTree = "<group>"; };
+		E825DA412AA86E3F0030E036 /* DocsDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocsDocument.swift; sourceTree = "<group>"; };
+		E825DA432AA86E3F0030E036 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E825DA452AA86E420030E036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E825DA482AA86E420030E036 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E825DA4A2AA86E420030E036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E825DA4B2AA86E420030E036 /* Docs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Docs.entitlements; sourceTree = "<group>"; };
+		E825DA502AA86E420030E036 /* DocsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E825DA542AA86E420030E036 /* DocsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocsTests.swift; sourceTree = "<group>"; };
+		E825DA5A2AA86E420030E036 /* DocsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E825DA5E2AA86E420030E036 /* DocsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocsUITests.swift; sourceTree = "<group>"; };
+		E825DA602AA86E420030E036 /* DocsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E88E0EBA2AA895CD00D21CF4 /* DocsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E8DF90042A966003004E46EC /* Frameworks */ = {
+		E825DA392AA86E3F0030E036 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8DF90152A966007004E46EC /* Frameworks */ = {
+		E825DA4D2AA86E420030E036 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8DF901F2A966007004E46EC /* Frameworks */ = {
+		E825DA572AA86E420030E036 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,143 +77,146 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E8DF8FFE2A966003004E46EC = {
+		E825DA332AA86E3F0030E036 = {
 			isa = PBXGroup;
 			children = (
-				E8DF90092A966003004E46EC /* OpenUrlApp */,
-				E8DF901B2A966007004E46EC /* OpenUrlAppTests */,
-				E8DF90252A966007004E46EC /* OpenUrlAppUITests */,
-				E8DF90082A966003004E46EC /* Products */,
+				E825DA3E2AA86E3F0030E036 /* Docs */,
+				E825DA532AA86E420030E036 /* DocsTests */,
+				E825DA5D2AA86E420030E036 /* DocsUITests */,
+				E825DA3D2AA86E3F0030E036 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E8DF90082A966003004E46EC /* Products */ = {
+		E825DA3D2AA86E3F0030E036 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E8DF90072A966003004E46EC /* OpenUrlApp.app */,
-				E8DF90182A966007004E46EC /* OpenUrlAppTests.xctest */,
-				E8DF90222A966007004E46EC /* OpenUrlAppUITests.xctest */,
+				E825DA3C2AA86E3F0030E036 /* Docs.app */,
+				E825DA502AA86E420030E036 /* DocsTests.xctest */,
+				E825DA5A2AA86E420030E036 /* DocsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E8DF90092A966003004E46EC /* OpenUrlApp */ = {
+		E825DA3E2AA86E3F0030E036 /* Docs */ = {
 			isa = PBXGroup;
 			children = (
-				E8DF900A2A966003004E46EC /* OpenUrlApp.swift */,
-				E8DF900C2A966003004E46EC /* ContentView.swift */,
-				E8DF900E2A966006004E46EC /* Assets.xcassets */,
-				E8DF90132A966006004E46EC /* OpenUrlApp.entitlements */,
-				E8DF90102A966006004E46EC /* Preview Content */,
+				E825DA3F2AA86E3F0030E036 /* DocsApp.swift */,
+				E825DA412AA86E3F0030E036 /* DocsDocument.swift */,
+				E88E0EBA2AA895CD00D21CF4 /* DocsView.swift */,
+				E825DA432AA86E3F0030E036 /* ContentView.swift */,
+				E825DA452AA86E420030E036 /* Assets.xcassets */,
+				E825DA4A2AA86E420030E036 /* Info.plist */,
+				E825DA4B2AA86E420030E036 /* Docs.entitlements */,
+				E825DA472AA86E420030E036 /* Preview Content */,
 			);
-			path = OpenUrlApp;
+			path = Docs;
 			sourceTree = "<group>";
 		};
-		E8DF90102A966006004E46EC /* Preview Content */ = {
+		E825DA472AA86E420030E036 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				E8DF90112A966006004E46EC /* Preview Assets.xcassets */,
+				E825DA482AA86E420030E036 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		E8DF901B2A966007004E46EC /* OpenUrlAppTests */ = {
+		E825DA532AA86E420030E036 /* DocsTests */ = {
 			isa = PBXGroup;
 			children = (
-				E8DF901C2A966007004E46EC /* OpenUrlAppTests.swift */,
+				E825DA542AA86E420030E036 /* DocsTests.swift */,
 			);
-			path = OpenUrlAppTests;
+			path = DocsTests;
 			sourceTree = "<group>";
 		};
-		E8DF90252A966007004E46EC /* OpenUrlAppUITests */ = {
+		E825DA5D2AA86E420030E036 /* DocsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E8DF90262A966007004E46EC /* OpenUrlAppUITests.swift */,
-				E8DF90282A966007004E46EC /* OpenUrlAppUITestsLaunchTests.swift */,
+				E825DA5E2AA86E420030E036 /* DocsUITests.swift */,
+				E825DA602AA86E420030E036 /* DocsUITestsLaunchTests.swift */,
 			);
-			path = OpenUrlAppUITests;
+			path = DocsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E8DF90062A966003004E46EC /* OpenUrlApp */ = {
+		E825DA3B2AA86E3F0030E036 /* Docs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8DF902C2A966007004E46EC /* Build configuration list for PBXNativeTarget "OpenUrlApp" */;
+			buildConfigurationList = E825DA642AA86E420030E036 /* Build configuration list for PBXNativeTarget "Docs" */;
 			buildPhases = (
-				E8DF90032A966003004E46EC /* Sources */,
-				E8DF90042A966003004E46EC /* Frameworks */,
-				E8DF90052A966003004E46EC /* Resources */,
+				E825DA382AA86E3F0030E036 /* Sources */,
+				E825DA392AA86E3F0030E036 /* Frameworks */,
+				E825DA3A2AA86E3F0030E036 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OpenUrlApp;
-			productName = OpenUrlApp;
-			productReference = E8DF90072A966003004E46EC /* OpenUrlApp.app */;
+			name = Docs;
+			productName = Docs;
+			productReference = E825DA3C2AA86E3F0030E036 /* Docs.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E8DF90172A966007004E46EC /* OpenUrlAppTests */ = {
+		E825DA4F2AA86E420030E036 /* DocsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8DF902F2A966007004E46EC /* Build configuration list for PBXNativeTarget "OpenUrlAppTests" */;
+			buildConfigurationList = E825DA672AA86E420030E036 /* Build configuration list for PBXNativeTarget "DocsTests" */;
 			buildPhases = (
-				E8DF90142A966007004E46EC /* Sources */,
-				E8DF90152A966007004E46EC /* Frameworks */,
-				E8DF90162A966007004E46EC /* Resources */,
+				E825DA4C2AA86E420030E036 /* Sources */,
+				E825DA4D2AA86E420030E036 /* Frameworks */,
+				E825DA4E2AA86E420030E036 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E8DF901A2A966007004E46EC /* PBXTargetDependency */,
+				E825DA522AA86E420030E036 /* PBXTargetDependency */,
 			);
-			name = OpenUrlAppTests;
-			productName = OpenUrlAppTests;
-			productReference = E8DF90182A966007004E46EC /* OpenUrlAppTests.xctest */;
+			name = DocsTests;
+			productName = DocsTests;
+			productReference = E825DA502AA86E420030E036 /* DocsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E8DF90212A966007004E46EC /* OpenUrlAppUITests */ = {
+		E825DA592AA86E420030E036 /* DocsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8DF90322A966007004E46EC /* Build configuration list for PBXNativeTarget "OpenUrlAppUITests" */;
+			buildConfigurationList = E825DA6A2AA86E420030E036 /* Build configuration list for PBXNativeTarget "DocsUITests" */;
 			buildPhases = (
-				E8DF901E2A966007004E46EC /* Sources */,
-				E8DF901F2A966007004E46EC /* Frameworks */,
-				E8DF90202A966007004E46EC /* Resources */,
+				E825DA562AA86E420030E036 /* Sources */,
+				E825DA572AA86E420030E036 /* Frameworks */,
+				E825DA582AA86E420030E036 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E8DF90242A966007004E46EC /* PBXTargetDependency */,
+				E825DA5C2AA86E420030E036 /* PBXTargetDependency */,
 			);
-			name = OpenUrlAppUITests;
-			productName = OpenUrlAppUITests;
-			productReference = E8DF90222A966007004E46EC /* OpenUrlAppUITests.xctest */;
+			name = DocsUITests;
+			productName = DocsUITests;
+			productReference = E825DA5A2AA86E420030E036 /* DocsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E8DF8FFF2A966003004E46EC /* Project object */ = {
+		E825DA342AA86E3F0030E036 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					E8DF90062A966003004E46EC = {
+					E825DA3B2AA86E3F0030E036 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					E8DF90172A966007004E46EC = {
+					E825DA4F2AA86E420030E036 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = E8DF90062A966003004E46EC;
+						TestTargetID = E825DA3B2AA86E3F0030E036;
 					};
-					E8DF90212A966007004E46EC = {
+					E825DA592AA86E420030E036 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = E8DF90062A966003004E46EC;
+						TestTargetID = E825DA3B2AA86E3F0030E036;
 					};
 				};
 			};
-			buildConfigurationList = E8DF90022A966003004E46EC /* Build configuration list for PBXProject "OpenUrlApp" */;
+			buildConfigurationList = E825DA372AA86E3F0030E036 /* Build configuration list for PBXProject "Docs" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,36 +224,36 @@
 				en,
 				Base,
 			);
-			mainGroup = E8DF8FFE2A966003004E46EC;
-			productRefGroup = E8DF90082A966003004E46EC /* Products */;
+			mainGroup = E825DA332AA86E3F0030E036;
+			productRefGroup = E825DA3D2AA86E3F0030E036 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E8DF90062A966003004E46EC /* OpenUrlApp */,
-				E8DF90172A966007004E46EC /* OpenUrlAppTests */,
-				E8DF90212A966007004E46EC /* OpenUrlAppUITests */,
+				E825DA3B2AA86E3F0030E036 /* Docs */,
+				E825DA4F2AA86E420030E036 /* DocsTests */,
+				E825DA592AA86E420030E036 /* DocsUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E8DF90052A966003004E46EC /* Resources */ = {
+		E825DA3A2AA86E3F0030E036 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8DF90122A966006004E46EC /* Preview Assets.xcassets in Resources */,
-				E8DF900F2A966006004E46EC /* Assets.xcassets in Resources */,
+				E825DA492AA86E420030E036 /* Preview Assets.xcassets in Resources */,
+				E825DA462AA86E420030E036 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8DF90162A966007004E46EC /* Resources */ = {
+		E825DA4E2AA86E420030E036 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8DF90202A966007004E46EC /* Resources */ = {
+		E825DA582AA86E420030E036 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,49 +263,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E8DF90032A966003004E46EC /* Sources */ = {
+		E825DA382AA86E3F0030E036 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8DF900D2A966003004E46EC /* ContentView.swift in Sources */,
-				E8DF900B2A966003004E46EC /* OpenUrlApp.swift in Sources */,
+				E825DA402AA86E3F0030E036 /* DocsApp.swift in Sources */,
+				E88E0EBB2AA895CD00D21CF4 /* DocsView.swift in Sources */,
+				E825DA422AA86E3F0030E036 /* DocsDocument.swift in Sources */,
+				E825DA442AA86E3F0030E036 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8DF90142A966007004E46EC /* Sources */ = {
+		E825DA4C2AA86E420030E036 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8DF901D2A966007004E46EC /* OpenUrlAppTests.swift in Sources */,
+				E825DA552AA86E420030E036 /* DocsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8DF901E2A966007004E46EC /* Sources */ = {
+		E825DA562AA86E420030E036 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8DF90292A966007004E46EC /* OpenUrlAppUITestsLaunchTests.swift in Sources */,
-				E8DF90272A966007004E46EC /* OpenUrlAppUITests.swift in Sources */,
+				E825DA5F2AA86E420030E036 /* DocsUITests.swift in Sources */,
+				E825DA612AA86E420030E036 /* DocsUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E8DF901A2A966007004E46EC /* PBXTargetDependency */ = {
+		E825DA522AA86E420030E036 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E8DF90062A966003004E46EC /* OpenUrlApp */;
-			targetProxy = E8DF90192A966007004E46EC /* PBXContainerItemProxy */;
+			target = E825DA3B2AA86E3F0030E036 /* Docs */;
+			targetProxy = E825DA512AA86E420030E036 /* PBXContainerItemProxy */;
 		};
-		E8DF90242A966007004E46EC /* PBXTargetDependency */ = {
+		E825DA5C2AA86E420030E036 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E8DF90062A966003004E46EC /* OpenUrlApp */;
-			targetProxy = E8DF90232A966007004E46EC /* PBXContainerItemProxy */;
+			target = E825DA3B2AA86E3F0030E036 /* Docs */;
+			targetProxy = E825DA5B2AA86E420030E036 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		E8DF902A2A966007004E46EC /* Debug */ = {
+		E825DA622AA86E420030E036 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,7 +367,7 @@
 			};
 			name = Debug;
 		};
-		E8DF902B2A966007004E46EC /* Release */ = {
+		E825DA632AA86E420030E036 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -410,61 +420,63 @@
 			};
 			name = Release;
 		};
-		E8DF902D2A966007004E46EC /* Debug */ = {
+		E825DA652AA86E420030E036 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = OpenUrlApp/OpenUrlApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Docs/Docs.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"OpenUrlApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Docs/Preview Content\"";
 				DEVELOPMENT_TEAM = 2NQ5GXJCVU;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Docs/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.s-mehrdad.OpenUrlApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.s-mehrdad.Docs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		E8DF902E2A966007004E46EC /* Release */ = {
+		E825DA662AA86E420030E036 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = OpenUrlApp/OpenUrlApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Docs/Docs.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"OpenUrlApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Docs/Preview Content\"";
 				DEVELOPMENT_TEAM = 2NQ5GXJCVU;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Docs/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.s-mehrdad.OpenUrlApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.s-mehrdad.Docs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		E8DF90302A966007004E46EC /* Debug */ = {
+		E825DA682AA86E420030E036 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -475,15 +487,15 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.s-mehrdad.OpenUrlAppTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.s-mehrdad.DocsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenUrlApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenUrlApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Docs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Docs";
 			};
 			name = Debug;
 		};
-		E8DF90312A966007004E46EC /* Release */ = {
+		E825DA692AA86E420030E036 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -494,15 +506,15 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.s-mehrdad.OpenUrlAppTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.s-mehrdad.DocsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenUrlApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenUrlApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Docs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Docs";
 			};
 			name = Release;
 		};
-		E8DF90332A966007004E46EC /* Debug */ = {
+		E825DA6B2AA86E420030E036 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -511,15 +523,15 @@
 				DEVELOPMENT_TEAM = 2NQ5GXJCVU;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.s-mehrdad.OpenUrlAppUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.s-mehrdad.DocsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = OpenUrlApp;
+				TEST_TARGET_NAME = Docs;
 			};
 			name = Debug;
 		};
-		E8DF90342A966007004E46EC /* Release */ = {
+		E825DA6C2AA86E420030E036 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -528,54 +540,54 @@
 				DEVELOPMENT_TEAM = 2NQ5GXJCVU;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.s-mehrdad.OpenUrlAppUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.s-mehrdad.DocsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = OpenUrlApp;
+				TEST_TARGET_NAME = Docs;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E8DF90022A966003004E46EC /* Build configuration list for PBXProject "OpenUrlApp" */ = {
+		E825DA372AA86E3F0030E036 /* Build configuration list for PBXProject "Docs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8DF902A2A966007004E46EC /* Debug */,
-				E8DF902B2A966007004E46EC /* Release */,
+				E825DA622AA86E420030E036 /* Debug */,
+				E825DA632AA86E420030E036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E8DF902C2A966007004E46EC /* Build configuration list for PBXNativeTarget "OpenUrlApp" */ = {
+		E825DA642AA86E420030E036 /* Build configuration list for PBXNativeTarget "Docs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8DF902D2A966007004E46EC /* Debug */,
-				E8DF902E2A966007004E46EC /* Release */,
+				E825DA652AA86E420030E036 /* Debug */,
+				E825DA662AA86E420030E036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E8DF902F2A966007004E46EC /* Build configuration list for PBXNativeTarget "OpenUrlAppTests" */ = {
+		E825DA672AA86E420030E036 /* Build configuration list for PBXNativeTarget "DocsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8DF90302A966007004E46EC /* Debug */,
-				E8DF90312A966007004E46EC /* Release */,
+				E825DA682AA86E420030E036 /* Debug */,
+				E825DA692AA86E420030E036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E8DF90322A966007004E46EC /* Build configuration list for PBXNativeTarget "OpenUrlAppUITests" */ = {
+		E825DA6A2AA86E420030E036 /* Build configuration list for PBXNativeTarget "DocsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8DF90332A966007004E46EC /* Debug */,
-				E8DF90342A966007004E46EC /* Release */,
+				E825DA6B2AA86E420030E036 /* Debug */,
+				E825DA6C2AA86E420030E036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E8DF8FFF2A966003004E46EC /* Project object */;
+	rootObject = E825DA342AA86E3F0030E036 /* Project object */;
 }
