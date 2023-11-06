@@ -1,5 +1,5 @@
 # Introduction
-Swift simple applications, clear coded and documented.
+Swift simple application to open URL.
 
 <table>
 <tr>

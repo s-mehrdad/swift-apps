@@ -1,5 +1,5 @@
 # Introduction
-Swift simple applications, clear coded and documented.
+Swift document template app.
 
 <table>
 <tr>
